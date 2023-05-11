@@ -15,7 +15,7 @@ TODAY=`date +"%d%b%Y"`
 ################################################################
 ################## Update below values  ########################
  
-DB_BACKUP_PATH='/backup/dbbackup'
+DB_BACKUP_PATH='/home/savanna/dbbackup'
 MYSQL_HOST='localhost'
 MYSQL_PORT='3306'
 MYSQL_USER='root'
