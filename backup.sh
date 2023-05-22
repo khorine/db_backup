@@ -3,9 +3,8 @@
 ################################################################
 ##
 ##   MySQL Database Backup Script 
-##   Written By: Rahul Kumar
-##   URL: https://tecadmin.net/bash-script-mysql-database-backup/
-##   Last Update: Jan 05, 2019
+##   Written By: Horine
+##   Last Update: May 23, 2023
 ##
 ################################################################
  
@@ -15,12 +14,12 @@ TODAY=`date +"%d%b%Y"`
 ################################################################
 ################## Update below values  ########################
  
-DB_BACKUP_PATH='/home/savanna/dbbackup'
-MYSQL_HOST='localhost'
-MYSQL_PORT='3306'
-MYSQL_USER='root'
-MYSQL_PASSWORD='Savanna#123$$'
-DATABASE_NAME='latesara'
+DB_BACKUP_PATH='/path-to-dbbackup'
+MYSQL_HOST='host'
+MYSQL_PORT='port'
+MYSQL_USER='user'
+MYSQL_PASSWORD='password'
+DATABASE_NAME='dbname'
 BACKUP_RETAIN_DAYS=3   ## Number of days to keep local backup copy
  
 #################################################################
